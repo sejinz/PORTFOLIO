@@ -51,7 +51,7 @@
       position: relative;
       display: flex;
       justify-content: center;
-      align-items: center;  
+      align-items: center;
       animation: ani 18s linear infinite;
   }
   @keyframes ani {
@@ -175,8 +175,8 @@
     z-index: 1;
     width: 1000px;
     height: 600px;
-    background-color: rgb(255, 255, 255);
-    left: 0px;
+    background-color: rgb(255, 243, 203);
+    left: 17px;
     top: 75px;
     animation: box2 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
