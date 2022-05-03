@@ -123,7 +123,7 @@ animation: character_walk 18s linear .5s infinite;
     background-repeat: repeat-x;
     margin: 10px 20px 50px 20px;
     animation: slide 35s linear infinite;
-    border: 3px solid #eee;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.363);
   }
   @keyframes slide {
     0%{background-position: 1000px;}
