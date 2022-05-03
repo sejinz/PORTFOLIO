@@ -156,7 +156,7 @@ animation: character_walk 18s linear .5s infinite;
   .clock{
     position: absolute;
     left: 405px;
-    bottom: 223px;
+    bottom: 225px;
     background-image: url(../images/clock.png);
     background-size: contain;
     width: 101px;
@@ -174,8 +174,8 @@ animation: character_walk 18s linear .5s infinite;
     border: none;
     border-radius: 15px;
     position: absolute;
-    left: 120px;
-    top: 100px;
+    left: 110px;
+    top: 65px;
   }
   .PhotoFrame{
     position: absolute;
@@ -257,8 +257,8 @@ animation: character_walk 18s linear .5s infinite;
   .flower{
     width: 50px;
     position: absolute;
-    right: 337px;
-    top: 305px;
+    right: 338px;
+    top: 294px;
     animation: flower 5s linear infinite;
   }
   @keyframes flower {
@@ -268,13 +268,13 @@ animation: character_walk 18s linear .5s infinite;
     width:45px;
     position: absolute;
     right: 340px;
-    top: 371px;
+    top: 358px;
   }
   .juice{
     position: absolute;
     width: 60px;
     left: 740px;
-    bottom: 228px;
+    bottom: 231px;
   }
   .dotori1{
     z-index: 1;
@@ -309,7 +309,7 @@ animation: character_walk 18s linear .5s infinite;
     z-index: 1;
     width: 40px;
     position: absolute;
-    right: 450px;
+    right: 460px;
     bottom: 150px;
     transform: rotate(30deg);
     transition: 300ms linear 0s;
@@ -318,7 +318,7 @@ animation: character_walk 18s linear .5s infinite;
   .dotori1_txt2{
     display: none;
     position: absolute;
-    right: 310px;
+    right: 315px;
     bottom: 185px;
     width: 120px;
     border-radius: 30px;
