@@ -172,9 +172,8 @@ body{
     bottom: 400px;
     animation: text 1s alternate infinite;
 }
-
 @keyframes text{
-    0%{top: 360px;}
+    0%{top: 345px;}
 }
 
 
