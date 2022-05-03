@@ -134,8 +134,8 @@ animation: character_walk 18s linear .5s infinite;
     position: absolute;
     width: 156px;
     height: 89px;
-    left: 536px;
-    top: 466px;
+    left: 533px;
+    top: 463px;
     z-index: 1;
   }
   .mockup1 >span>img{

@@ -41,10 +41,7 @@ abbr,acronym{
     border:none;
 }
 img{
-    /* vertical-align:middle; */
     max-width: 100%;
-    /*✓⬆️ wid 값이 %로 된 이미지들이 브라우저 쪽이 줄 경우 비례를 맞춰
-    주도록 하기 위해 사용 ipad 사이즈에서 */
 }
 hr{
     display:none;

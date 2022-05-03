@@ -2,7 +2,6 @@ body{
     background-color: rgb(255, 235, 121);
     font-family: "Rubik Mono One";
 }
-
 .box{
     position: absolute;
     width: 300px;
@@ -17,7 +16,6 @@ body{
 .box img{
     width: 9.5%;
     vertical-align: middle;
-
 }
 .box p{
     font-family: 'S-Core Dream 5';
@@ -83,13 +81,11 @@ body{
 }
 @keyframes sjworld {
         0% {
-        -webkit-transform: translateX(-800px) rotate(-540deg);
-                    transform: translateX(-800px) rotate(-540deg);
+        transform: translateX(-800px) rotate(-540deg);
         opacity: 0;
       }
       100% {
-        -webkit-transform: translateX(0) rotate(0deg);
-                    transform: translateX(0) rotate(0deg);
+        transform: translateX(0) rotate(0deg);
         opacity: 1;
       }   
 }
@@ -101,7 +97,6 @@ body{
     animation:txtup 1s infinite; -webkit-animation:txtup 2s infinite;
     color: rgb(255, 238, 216);
 }
-
     .txt span:nth-of-type(1){animation-delay:2.5s;}
     .txt span:nth-of-type(2){animation-delay:2.6s;}
     .txt span:nth-of-type(3){animation-delay:2.7s;}
@@ -114,7 +109,6 @@ body{
         20% {top:-2rem;}
         100% {top:0}
     }
-
 .login{
     position: relative;
 }
@@ -158,7 +152,6 @@ body{
     0%{color: rgb(255, 153, 0);}
     100%{color: rgb(255, 153, 0);}
 }
-
 /* 미니미  */
 .minimi {
     position: absolute;
