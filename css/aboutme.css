@@ -1,0 +1,192 @@
+/* ABOUT ME */
+
+/* 프로픽  */
+.profile_item_container{
+    position: relative;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+.profile{
+    animation: profile 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both 0.5s;
+}
+@keyframes profile {
+    0% {transform: translateY(-50px); opacity: 0;}
+    100% {transform: translateY(0); opacity: 1;}
+  }
+.profile h2{
+    z-index: 1;
+    border-bottom: solid 1px #333;
+   font-size: 20px;
+   color: #009AFF;
+   font-weight: bold;
+   padding-bottom: 10px;
+}
+.profile:after{
+    position: absolute;
+    top: 15px;
+    content: "";
+    background: rgba(82, 177, 255, 0.24);
+    width: 95px;
+    height: 13px;
+    display: block;
+}
+.profile h3{
+    padding: 15px 0; 
+    font-size: 18px;
+    font-weight: bold;
+    color: #009AFF;
+}
+.profile p{
+    font-family: 'S-Core Dream 3';
+    font-size: 15.7px;
+    line-height: 1.7;
+}
+.line{
+    padding-bottom: 5px;
+}
+    /* 중간 홈피 감싸는 부분  */
+
+  .minihompi_board{
+      background: url(../images/bg.png) 0 center / 1177px repeat-x;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;  
+      animation: ani 18s linear infinite;
+  }
+  @keyframes ani {
+    0%{background-position: 0 center;}
+    100%{background-position: -1177px center;}
+  }
+.minihompi_board > div{
+    position: absolute;
+}
+/* 박스 위치  */
+.border_box1{
+    z-index: 2;
+    opacity: 0;
+    width: 1050px;
+    height: 550px;
+    background-color: rgb(247, 245, 245);
+    display: flex;
+    animation:box1 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both 1s;
+}
+    @keyframes box1 {
+        0% {transform: translateY(-1000px);}
+        100% {transform: translateY(0);}
+      }
+/* 1번 박스 내용  */
+.photo{
+    display: flex;
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+}
+.photo img{
+    padding: 30px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+}
+.photo p:first-of-type{
+    font-family: "DungGeunMo";
+    font-size: 30px;
+    color: #009AFF;
+}
+.photo p:nth-of-type(2){
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 15px;
+
+}
+.photo p:last-of-type{
+    padding: 20px;
+    box-sizing: border-box;
+    line-height: 2;
+    font-size: 16px;
+    text-align: center;
+}
+.skill{
+    display: flex;
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+}
+.skill_box{
+    border: 10px solid black;
+    width: 90%;
+    height: 80%;
+    padding-bottom: 20px;
+}
+.skill_box h2{
+    display: flex;
+    align-items: center;  
+    background-color: #000;
+    color: #fff;
+    font-size: 70px;
+    font-family: "DungGeunMo";
+    padding-left: 20px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+      text-shadow: -1px 1px #555555, -2px 2px #555555, -3px 3px #949494, -4px 4px #9c9c9c, -5px 5px #999999, -6px 6px #929292, -7px 7px #8d8d8d, -8px 8px #858585;
+}
+
+.skill_box h2 span{
+    border: 3px solid #fff;
+    padding: 0 20px;
+    margin: 15px;
+}
+.skill_box h2 span:first-of-type{
+    margin-left: 300px;
+}
+.skill_logo{
+    text-align: center;
+}
+.skill_logo p{
+    font-size: 20px;
+    font-family: "DungGeunMo";
+}
+.skill_logo ul li{
+    float: left;
+    /* animation: skill 3s cubic-bezier(0.175, 0.885, 0.320, 1.275) 3s;     */
+}
+.skill_logo ul li img{
+    padding: 20px;
+}
+.skill_logo ul li img:hover{
+    animation: jello 0.9s both;
+}
+@keyframes jello {
+    0% {transform: scale3d(1, 1, 1);}
+    30% {transform: scale3d(1.25, 0.75, 1);}
+    40% {transform: scale3d(0.75, 1.25, 1);}
+    50% {transform: scale3d(1.15, 0.85, 1); }
+    65% {transform: scale3d(0.95, 1.05, 1);}
+    75% {transform: scale3d(1.05, 0.95, 1);}
+    100% {transform: scale3d(1, 1, 1);}
+  }
+.border_box2{
+    display: none;
+    z-index: 1;
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    left: 0px;
+    top: 75px;
+    animation: box2 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes box2 {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(90px);}
+  } 
+
+ /* 메뉴 탭 */
+.menu_list a:nth-of-type(2){
+    background-color: #fff;
+    color: #000;
+  }

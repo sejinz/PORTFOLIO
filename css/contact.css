@@ -1,0 +1,108 @@
+/* 레이아웃  */
+.profile_container{
+  display: none;
+}
+.hompage_container{
+  margin-left: 140px;
+}
+.minihompi_board{
+  position: relative;
+  padding: 40px;
+}
+.contact{
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  height: 90%;
+  background-image: url(../images/line.png);
+  background-repeat: no-repeat;
+}
+.contact_poto{
+  flex: 0.43;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact_poto img{
+  width: 200px;
+  border: 5px solid #ffdd1a;
+  padding: 30px;
+  border-radius: 100px;
+}
+.contact_txt{
+  padding-left: 10px;
+  box-sizing: border-box;
+  flex: 1;
+  padding-top: 150px;
+  box-sizing: border-box;  
+}
+.contact_txt .Thank{
+  color: rgba(255, 187, 0, 0.993);
+  animation: Thank 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both .5s;
+
+}
+@keyframes Thank {
+  0% {
+    transform: translateY(0);
+    transform-origin: 50% 50%;
+    text-shadow: none;
+    opacity: 0;
+  }
+  30%{opacity: 0;}
+  100% {
+    transform: translateY(20px);
+    transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #fff8d1, 0 2px 0 #ffeb77, 0 3px 0 #ffe46b, 0 4px 0 #ffd45e, 0 5px 0 #ffcf4b, 0 6px 0 #ffc72c, 0 7px 0 #ffcd44, 0 8px 0 #ffcb3d, 0 9px 0 #ffe600, 0 0px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+.contact_txt >p{
+  font-family: "DungGeunMo";
+  font-size: 30px;
+  line-height: 2;
+}
+.contact_txt >p:first-of-type{
+  padding-bottom: 20px;
+  font-size: 38px;
+  font-weight: bold;
+}
+.contact_txt > a:first-of-type{
+  position: absolute;
+  text-align: center;
+  font-family: "DungGeunMo";
+  font-size: 20px;
+  right: 300px;
+  top: 350px;
+}
+.contact_txt > a:last-of-type{
+  position: absolute;
+  text-align: center;
+  padding-right: 20px;
+  font-family: "DungGeunMo";
+  font-size: 20px;
+  right: 150px;
+  top: 350px;
+}
+.contact_txt > a img{
+  width: 60px;
+  transition: transform 200ms linear 0s;
+  animation: dotori 1s linear infinite;
+}
+.contact_txt > p img{
+  width: 35px;
+  vertical-align: middle;
+}
+@keyframes dotori {
+    10%{transform:scale(1)}
+    50%{transform:scale(1.05)}
+}
+.contact_txt a{
+  color: rgb(153, 50, 10);
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* 메뉴 탭 */
+.menu_list a:nth-of-type(4){
+    background-color: #fff;
+    color: #000;
+  }
